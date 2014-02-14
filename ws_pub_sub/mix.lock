@@ -1,0 +1,12 @@
+[ "bson": {:git, "git://github.com/mongodb/bson-erlang", "6d3cc910eac6d4c21402427b41c411e201eca424", [ref: "HEAD"]},
+  "bullet": {:git, "git://github.com/extend/bullet.git", "5bf494144cf4f86e85cd80bfd8c7aa495a4e2209", []},
+  "cowboy": {:git, "git://github.com/extend/cowboy.git", "db52494371ea249f38d51108c7d79cf487ff6374", [tag: "0.9.0"]},
+  "cowlib": {:git, "git://github.com/extend/cowlib.git", "63298e8e160031a70efff86a1acde7e7db1fcda6", [ref: "0.4.0"]},
+  "eredis": {:git, "git://github.com/wooga/eredis.git", "d0f8c7f4d3ab4cc6ebb01539b8a2d6e32004f82a", []},
+  "exjson": {:git, "git://github.com/guedes/exjson.git", "bd9dcb7e78c2344bb491098405f2b81d53979dcd", []},
+  "exredis": {:git, "git://github.com/artemeff/exredis.git", "c440f3f06e19d2ea198f9b51e91e8f42751abb7a", []},
+  "jsex": {:git, "git://github.com/talentdeficit/jsex.git", "3db1d520e00fb28c3eee4e5b30645d5878037c38", []},
+  "jsx": {:git, "git://github.com/talentdeficit/jsx.git", "e50af6e109cb03bd26acf715cbc77de746507d1d", [tag: "v1.4.3"]},
+  "mongodb": {:git, "git://github.com/mururu/mongodb-erlang.git", "4c640620bf2ab82d9be85d527a229cd6b60a4c02", []},
+  "ranch": {:git, "git://github.com/extend/ranch.git", "5df1f222f94e08abdcab7084f5e13027143cc222", [ref: "0.9.0"]},
+  "relex": {:git, "git://github.com/yrashk/relex.git", "4185e760d07c86ba6cae016d1e846ce39ec191a9", []} ]
