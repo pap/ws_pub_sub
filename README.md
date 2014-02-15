@@ -1,6 +1,6 @@
 # WsPubSub
 
-** Example application for my [blog post](http://pap.github.io/) on the use of Elixir websockets + Redis PubSub **
+** Example application for my [blog post](http://pap.github.io/blog/2014/02/14/elixr-websockets-plus-mongo-plus-redis-2/) on the use of Elixir websockets + Redis PubSub **
 
 You need Mongo and Redis running.
 
@@ -20,7 +20,7 @@ __Redis:__
   * port: __6379__
 
 
-The Elixir Application is at WsPubSub dir
-An example webpage is at Webpage dir
+You will find the elixir application in ws_pub_sub dir and i will soon finish an example bullet.js webpage at webpage dir
+
 
 You can use `python -m SimpleHTTPServer` command to serve this webpage at `http://localhost:8000`
