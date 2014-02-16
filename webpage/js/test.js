@@ -1,8 +1,6 @@
 var websocket;
       var connected = false;
-
-      //qs = generateGuid();
-      //qs = "xpto";
+      // Default value for the key 
       qs = "00721b2a-046c-4ecc-a5df-5f808cc6c58f";
       $(document).ready(init);
 
@@ -20,14 +18,11 @@ var websocket;
 
       function connect()
       {
-          //Digital Ocean Droplet
-          wsHost = "ws://188.226.147.202/websocket";
-          //wsHost = "ws://realtime.pknoa.com/websocket";
           // Localhost
-          //wsHost = "ws://127.0.0.1/websocket";
+          wsHost = "ws://127.0.0.1:8008/websocket";
           wsHost = wsHost+'?'+qs;
           $('#connection').text('Connecting');
-          $('#footer-info').text('GUID: ' + qs );
+          //$('#footer-info').text('GUID: ' + qs );
           websocket = $.bullet(wsHost);
           websocket.onopen = function(evt) { onOpen(evt) };
           websocket.onclose = function(evt) { onClose(evt) };
@@ -65,18 +60,14 @@ var websocket;
       };
 
       function onMessage(evt) {
-          //if (evt.data == "heartbeat message"){
           if (evt.data == "status checked"){
             showHeartbeat();
           } else {
-            //var obj = jQuery.parseJSON(evt.data);
-            //showMessage(obj);
             showMessage(evt.data);
           }
       };
 
       function onHeartbeat(evt) {
-        //websocket.send("ping");
         websocket.send("status");
       };
 

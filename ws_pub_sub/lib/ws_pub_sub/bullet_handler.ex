@@ -1,4 +1,4 @@
-defmodule WsHandler do
+defmodule BulletHandler do
 
   @period 1000
   @redis_ws_in_chn "connected"
